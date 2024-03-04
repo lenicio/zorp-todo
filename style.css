@@ -12,10 +12,36 @@ body {
   margin-right: auto;
 }
 
+form {
+  display: flex;
+  gap: 10px;
+  justify-content: center
+}
+
 table {
   width: 100%;
   margin-top: 25px;
 }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #593493;
+  color: #fff;
+}
+
+th, td {
+  padding: 10px;
+}
+
+td{
+  text-align: center;
+}
+
+
 
 main h1 {
   text-align: center;
