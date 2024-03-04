@@ -1,7 +1,7 @@
 <?php
 
 if (!empty($_GET['todo'])) {
-  require "./config.php";
+  require "./config.php"; 
   $todoItem = $_GET['todo'];
 
   $sql = "INSERT INTO todo (descricao) VALUES (:descricao)";
@@ -10,6 +10,7 @@ if (!empty($_GET['todo'])) {
   $sql->execute();
 
   header("Location: todo.php");
+  
 } else {
   header("Location: todo.php");
 }
