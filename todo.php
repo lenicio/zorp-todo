@@ -13,7 +13,7 @@
   <main>
     <h1>TODO List</h1>
 
-    <form>
+    <form method="get" action="create-todo.php">
       <input type="text" name="todo" id="todo" placeholder="Adicione uma tarefa...">
       <input type="submit" value="Adicionar">
     </form>

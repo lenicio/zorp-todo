@@ -9,3 +9,6 @@ $sql = "CREATE TABLE IF NOT EXISTS todo (
 $sql = $pdo->prepare($sql);
 $sql->execute();
 
+$sql = "INSERT INTO todo (descricao) VALUES ('Estudar PHP')";
+$sql = $pdo->prepare($sql);
+$sql->execute();
