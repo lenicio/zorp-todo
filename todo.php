@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todo</title>
   <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/561265e797.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -13,8 +14,7 @@
     <h1>TODO List</h1>
 
     <form>
-      <label for="todo">Adicionar Nova Tarefa</label>
-      <input type="text" name="todo" id="todo">
+      <input type="text" name="todo" id="todo" placeholder="Adicione uma tarefa...">
       <input type="submit" value="Adicionar">
     </form>
 
@@ -31,19 +31,28 @@
         <tr>
           <td>1</td>
           <td>Estudar PHP</td>
-          <td>[Editar] [Excluir]</td>
+          <td>
+            <i class="fa-solid fa-pen"></i>
+            <i class="fa-solid fa-trash"></i>
+          </td>
         </tr>
 
         <tr>
           <td>2</td>
           <td>Estudar HTML / CSS</td>
-          <td>[Editar] [Excluir]</td>
+          <td>
+            <i class="fa-solid fa-pen"></i>
+            <i class="fa-solid fa-trash"></i>
+          </td>
         </tr>
 
         <tr>
           <td>3</td>
           <td>Praticar Exercícios</td>
-          <td>[Editar] [Excluir]</td>
+          <td>
+            <i class="fa-solid fa-pen"></i>
+            <i class="fa-solid fa-trash"></i>
+          </td>
         </tr>
 
 
